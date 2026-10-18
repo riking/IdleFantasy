@@ -122,7 +122,7 @@ class CarnivalViewModel @Inject constructor(
         AppraisalPair("sapphire", "diamond", false),
     )
 
-    // Hard mode: 4-item quads — correctIdx = index of the most valuable item
+    // Hard mode: N-item quads that need 4 selected — sorted from most valuable to least
     private val APPRAISAL_QUADS = listOf(
         AppraisalQuad(listOf("divine_sword", "runite_sword", "adamantite_sword", "iron_sword"), 0),
         AppraisalQuad(listOf("magic_log", "yew_log", "maple_log", "oak_log"), 0),
